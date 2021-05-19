@@ -1,0 +1,102 @@
+.dashboards {
+    width: 100%;
+    height: 100%;
+    padding-top:50px;
+    /* margin-top:100px; */
+  }
+
+  .contactar {
+    width: 100%;
+    height: 100%;
+    padding-top:50px;
+    padding-bottom:50px;
+    /* margin-top:100px; */
+    /* margin-bottom:100px; */
+  }
+
+  .curriculum {
+    width: 100%;
+    height: 100%;
+    padding-top:50px;
+    /* margin-top:100px; */
+  }
+
+  .codigo {
+    width: 100%;
+    height: 100%;
+    padding-top:50px;
+    /* margin-top:100px; */
+  }
+
+
+
+  .landing{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    /* http://dragdropsite.github.io/waterpipe.js/ */
+    background: url("../img/background.png") no-repeat 100% 50%;
+    top: 0;
+    display: table;
+    background-size: cover;
+  }
+
+ .landing .in1{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+  }
+  
+  .content{
+    /* max-width: 500px;
+    margin: auto; */
+    margin-top: 30vh;
+    text-align: center;
+  }
+  .content h1{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    color: #595959;
+    font-size: 500%;
+    text-shadow: 0 0 300px #000;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .content p{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 15px;
+    color: #595959;
+    font-size: 20px;
+    text-shadow: 0 0 300px #000;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .content .btn{
+    
+    color: #595959;
+    text-decoration: none;
+    font-family: 'Century Gothic',sans-serif;
+    border: 3px solid;
+    padding: 7px 13px;
+    font-weight: bold;
+    margin-top: 10px;
+
+  }
+  
+  .content .btn:hover{
+    color: #2196f3;
+  }
+  
+  .landing_texto
+  {
+    font-size: 160%;
+    line-height: 200%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
+  }
