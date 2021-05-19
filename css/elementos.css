@@ -100,3 +100,28 @@
     margin: 3%;
     font-family: sans-serif;
   }
+
+  @media(max-width: 768px){
+    .content h1{
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 300;
+      color: #595959;
+      font-size: 200%;
+      text-shadow: 0 0 300px #000;
+      margin-bottom: 0;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    
+    .content p{
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: lighter;
+      letter-spacing: 15px;
+      color: #595959;
+      font-size: 15px;
+      text-shadow: 0 0 300px #000;
+      margin-top: 10px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+}
