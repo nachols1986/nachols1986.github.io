@@ -69,3 +69,10 @@
 .nounderline {
     text-decoration: none !important
   }
+
+@media(max-width: 768px){
+    .social-icon {
+        height: 50px;
+        width: 50px;
+    }
+}
