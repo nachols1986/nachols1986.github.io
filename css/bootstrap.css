@@ -4424,6 +4424,11 @@ NLS */
 .card-img-top {
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
+  /* NLS ultimo */   
+  width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  
 }
 
 .card-img,
