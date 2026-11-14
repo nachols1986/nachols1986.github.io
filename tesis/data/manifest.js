@@ -1,0 +1,80 @@
+window.THESIS_MANIFEST = [
+  {
+    "id": "basilio",
+    "name": "Basilio Chronopoulos",
+    "program": "UCA · MGD",
+    "chip": "chip-a",
+    "stage": "Tesis Completa (Precierre · Entrega 17/11)",
+    "title": "Gestión de Datos para la Administración de Actividades Deportivas No Profesionales: Estudio de Caso Abasto Athletic Club",
+    "file": "20261111.docx / 20261113.docx",
+    "updated": "13 nov 2026",
+    "total_words": 49539,
+    "total_mins": 236,
+    "section_count": 24
+  },
+  {
+    "id": "claudio",
+    "name": "Claudio Marroquín",
+    "program": "UCA · MGD",
+    "chip": "chip-a",
+    "stage": "Tesis Completa (Aprobada para Consejo · 10/11)",
+    "title": "Diseño de un modelo de gestión de datos para la toma de decisiones comerciales en SODIMA",
+    "file": "20261110.pdf / 20261011.md",
+    "updated": "10 nov 2026",
+    "total_words": 35004,
+    "total_mins": 167,
+    "section_count": 10
+  },
+  {
+    "id": "francisco",
+    "name": "Francisco Martínez",
+    "program": "UCA · MGD",
+    "chip": "chip-b",
+    "stage": "Avance Capítulos 1 a 3 + Anexos A–D",
+    "title": "AI Governance Bootstrapping: Gobernar la IA para madurar los datos en organizaciones con madurez emergente",
+    "file": "20261028.md",
+    "updated": "03 nov 2026",
+    "total_words": 16099,
+    "total_mins": 77,
+    "section_count": 10
+  },
+  {
+    "id": "brenda-uca",
+    "name": "Brenda Ramírez Borda",
+    "program": "UCA · MGD",
+    "chip": "chip-b",
+    "stage": "Plan de Trabajo Final (Versión 2)",
+    "title": "Marco de Gobernanza e Integración de Datos para la Optimización Operativa y Financiera de Proyectos Tecnológicos en GO-IT S.R.L.",
+    "file": "20261024.pdf",
+    "updated": "03 nov 2026",
+    "total_words": 4862,
+    "total_mins": 23,
+    "section_count": 23
+  },
+  {
+    "id": "brenda-itba",
+    "name": "Brenda Bóveda",
+    "program": "ITBA · FINTECH",
+    "chip": "chip-c",
+    "stage": "Anteproyecto Aprobado · Inicio Tutoría",
+    "title": "Predicción del Comportamiento Futuro para Mejorar la Toma de Decisiones Crediticias en PedidosYa",
+    "file": "Anteproyecto - Brenda Bóveda.pdf",
+    "updated": "12 nov 2026",
+    "total_words": 5675,
+    "total_mins": 27,
+    "section_count": 2
+  },
+  {
+    "id": "carolina-itba",
+    "name": "Carolina Otaran",
+    "program": "ITBA · FINTECH",
+    "chip": "chip-c",
+    "stage": "Anteproyecto Aprobado · Inicio Tutoría",
+    "title": "Entre la simplicidad y la comprensión: la comunicación del riesgo en las aplicaciones de inversión digital en Argentina",
+    "file": "Anteproyecto_Tesis_Otaran.pdf",
+    "updated": "12 nov 2026",
+    "total_words": 4662,
+    "total_mins": 22,
+    "section_count": 2
+  }
+];

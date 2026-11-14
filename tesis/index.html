@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light" data-font="serif" data-size="md">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Lectura de Tesis · UCA &amp; ITBA</title>
+  <meta name="theme-color" content="#1f3a2e" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="styles.css?v=1" />
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('tesis_theme');
+        if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+        var f = localStorage.getItem('tesis_font');
+        if (f === 'sans' || f === 'serif') document.documentElement.setAttribute('data-font', f);
+        var s = localStorage.getItem('tesis_size');
+        if (s === 'sm' || s === 'md' || s === 'lg') document.documentElement.setAttribute('data-size', s);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+
+  <div class="pagina">
+    <header class="cabecera" role="banner">
+      <div class="cintillo-edicion">
+        <span>DIRECCIÓN Y TUTORÍA DE TESIS · UCA (MGD) &amp; ITBA (FINTECH)</span>
+        <span class="cintillo-centro">EDICIÓN DE LECTURA MÓVIL · 2026</span>
+        <span>JOSÉ IGNACIO LÓPEZ SÁEZ</span>
+      </div>
+
+      <div class="cabecera-cuerpo">
+        <div>
+          <h1 class="marca-titulo">Cuaderno de Dirección de Tesis</h1>
+          <p class="marca-sub">Seleccioná un tesista abajo para leer su última entrega o el dictamen de revisión.</p>
+        </div>
+
+        <div class="controles-barra">
+          <button type="button" class="btn-recto secundario" id="mode-toggle" title="Alternar entre lectura por capítulo o documento corrido">
+            Modo: <span id="mode-label">Por sección</span>
+          </button>
+
+          <div class="grupo-recto" role="group" aria-label="Tamaño de texto">
+            <button type="button" class="btn-recto secundario" id="size-down" title="Reducir texto">A−</button>
+            <button type="button" class="btn-recto secundario" id="size-up" title="Aumentar texto">A+</button>
+          </div>
+
+          <button type="button" class="btn-recto secundario" id="font-toggle" title="Cambiar tipografía">
+            <span class="font-opt" data-mode="serif">Serif</span>/<span class="font-opt" data-mode="sans">Sans</span>
+          </button>
+
+          <button type="button" class="btn-recto secundario" id="theme-toggle" title="Alternar Papel / Noche">
+            <span class="label-tema-claro">Papel</span>/<span class="label-tema-oscuro">Noche</span>
+          </button>
+
+          <button type="button" class="btn-recto mobile-archive-btn" id="mobile-archive-toggle">
+            Índice
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="panel-alumnos" id="student-selector" aria-label="Selección de alumno"></section>
+
+    <div class="grilla-editorial">
+      <main class="columna-lectura" id="main-content" role="main">
+        <div id="student-banner" class="ficha-tesis"></div>
+        <div id="sections-container"></div>
+        <nav id="pagination-nav" class="barra-paginacion" aria-label="Navegación de capítulos"></nav>
+      </main>
+
+      <aside class="columna-archivo" id="archive-aside" aria-label="Índice del documento">
+        <div class="bloque-lateral">
+          <label for="search-input" class="etiqueta" style="display:block;margin-bottom:0.4rem;">Filtrar en este trabajo</label>
+          <div class="campo-busqueda">
+            <input type="search" id="search-input" placeholder="Buscar palabra o tema..." autocomplete="off" />
+          </div>
+        </div>
+
+        <div class="bloque-lateral">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--verde);padding-bottom:0.4rem;margin-bottom:0.35rem;">
+            <span class="etiqueta">Secciones</span>
+            <span id="section-count-label" style="font-family:var(--mono);font-size:0.72rem;color:var(--tinta-2);"></span>
+          </div>
+          <div id="toc-list" class="arbol-archivo"></div>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="pie-editorial">
+      <div class="pie-interno">
+        <span>Cuaderno de Dirección de Tesis · UCA &amp; ITBA (2026)</span>
+        <span>Lectura privada no indexada</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="data/manifest.js"></script>
+  <script src="app.js?v=1"></script>
+</body>
+</html>
